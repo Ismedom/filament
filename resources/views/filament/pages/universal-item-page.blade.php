@@ -1,7 +1,7 @@
 <x-filament-panels::page>
     <div class="space-y-6">
         <!-- Tabs -->
-        <div class="border-b border-gray-200">
+        {{-- <div class="border-b border-gray-200">
             <nav class="flex space-x-8">
                 @foreach ($this->getTabs() as $key => $tab)
                     <a 
@@ -22,6 +22,6 @@
         <!-- Content -->
         <div>
             {{ $this->table }}
-        </div>
+        </div> --}}
     </div>
 </x-filament-panels::page>
